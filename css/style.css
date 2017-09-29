@@ -66,6 +66,11 @@ div{
 .communication{
     display: inline-block;
 }
+.communication__icon{
+    display: inline-block;
+    width: 20px;
+    padding-right: 5px;
+}
 .communication_position{
     position: absolute;
     right: 5%;
@@ -141,10 +146,6 @@ div{
     height: 226px;
     width: 226px;
 }
-.communication__icon{
-    display: inline-block;
-    width: 20px;
-}
 
                                           /*ABOUT*/
 .about{
@@ -171,7 +172,7 @@ div{
     text-align: center;
 }
 .about__text{
-    font: 1em 'Yanone Kaffeesatz', sans-serif;
+    font: 1.5em 'Yanone Kaffeesatz', sans-serif;
     line-height: 1.2;
     list-style: disc;
     text-align: center;
@@ -201,8 +202,17 @@ div{
         left: 50%;
         top: 63%;
     }
-    .about__text{
-        font-size: 1.5em;
+    .about__text,
+    .about__title,
+    .communication__item{
+        font-size: 2.5em;
+    }
+    .info__text{
+        font-size: 2em;
+    }
+    .info__name,
+    .header__logo{
+        font-size: 3em;
     }
     .top__wrapper{
         display: block;
