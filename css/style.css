@@ -188,12 +188,12 @@ div{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 975px){
+@media screen and (max-device-width: 975px){
     .about__info{
         width: 40%;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-device-width: 800px){
     .top__img{
         display: none;
     }
@@ -216,12 +216,12 @@ div{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-device-width: 500px){
     .about__info{
         width: 100%;
     }
 }
-@media screen and (max-width: 450px){
+@media screen and (max-device-width: 450px){
     .communication{
         display: block;
         position: static;
